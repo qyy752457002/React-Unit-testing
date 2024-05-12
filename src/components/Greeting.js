@@ -16,10 +16,10 @@ const Greeting = () => {
         <div>
             <h2>Hello World!</h2>
 
-            {/* 显示“It's good to see you!”，当changedText为false时 */}
+            {/* 显示 It's good to see you!，当changedText为false时 */}
             {!changedText && <Output>It's good to see you!</Output>}
 
-            {/* 显示“Changed!”，当changedText为true时 */}
+            {/* 显示 Changed!，当changedText为true时 */}
             {changedText && <Output>Changed!</Output>}
 
             {/* Changed Text! 按钮 */}
